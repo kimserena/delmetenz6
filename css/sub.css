@@ -1,0 +1,453 @@
+/*about*/
+.aboutbg{
+    background: url("../img/macbook-926425.jpg") no-repeat center;
+    background-size:100%;
+    height: 400px;
+}
+.ab_top img{width: 1200px;}
+.post_content{
+    margin: 20px 0;
+    line-height: 30px;
+}
+.post_content h1.title {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #4c4c4c;
+}
+.post_content .ab_top{
+    margin: 20px 0px;
+}
+.post_content .ab_middle{
+    margin: 20px 0px;
+}
+
+.post_content .ab_text{
+    font-size:25px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.one_third{display: inline-block; width: 20%;}
+.one_third img{width: 100%;}
+.two_third{display: inline-block; width: 70%; vertical-align: top; margin-left:4%; margin-top: 0px;}
+
+.ab_history_l{display: inline-block; width: 32%; margin-right: 2%;}
+.ab_history_c{display: inline-block; width: 32%; vertical-align: top; margin-right: 2%;}
+.ab_history_r{display: inline-block; width: 31%; vertical-align: top;}
+.ab_date{font-size:30px; color:#929292; margin-right: 20px; line-height: 50px; font-weight: bold;}
+.ab_data{vertical-align: top; display: inline-block; padding-top: 10px;}
+.ab_data2{vertical-align: top; display: block; padding-top: 10px; padding-bottom: 10px; margin-left: 96px;}
+.ab_data2{vertical-align: top; display: block;}
+
+.ab_service{display: inline-block; width: 33%; vertical-align: top;}
+.ab_service .ab_title{font-size:25px; margin: 10px 0;}
+
+/*business*/
+.businessbg{
+    background: url("../img/business-582912.jpg") no-repeat center;
+    background-size:100%;
+    height: 400px;
+}
+.businesswrap-sub {margin-bottom: 50px;}
+
+.business-sub {
+    position: relative;
+    display: inline-block;
+}
+
+.business-sub:first-child {
+}
+
+.business-sub .img{
+}
+
+.business-sub .img img {
+    width: 463px;
+    height: 400px;
+}
+
+.business-subject {
+    margin: 20px 0 40px;
+}
+
+.business-subject a p {
+    font-size: 17px;
+    width: 420px;
+    margin-bottom: 5px;
+}
+
+.business-subject .line {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.business-sub .comment-sub {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.business-sub .comment-sub span {
+    margin-left: 10px;
+    font-size: 15.8px;
+    color: #fff;
+}
+
+.business-sub .like {
+    display: inline-block;
+    float: right;
+}
+
+.business-sub .like i {
+    color: #f95c55;
+    font-size:18px;
+}
+
+/*contact*/
+.contactbg {
+    background: url("../img/laptop-601536.jpg") no-repeat bottom;
+    background-size: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.contactbg h1 {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact {}
+
+.contact h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0;
+    font-weight: normal;
+}
+
+label span {
+    color: #D74545;
+    font-size: 10px;
+    vertical-align: top;
+    font-weight: bold;
+    margin-right: 1px;
+}
+
+label {
+    font-size: 15px;
+    vertical-align: top;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    height: 200px;
+}
+
+.submit {
+    margin: 20px auto;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 18px 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.95;
+}
+
+
+/*blog*/
+.blogbg {
+    background: url("../img/light-300431.jpg") no-repeat center;
+    background-size: 100%;
+    height: 400px;
+    position: relative;
+}
+.story {
+    position: relative;
+
+}
+
+.category {
+    margin: 40px 0;
+}
+
+.category ul {
+    display: inline-block;
+}
+
+a.detailview div:hover {
+    color: #1BA3E0;
+    transition: 1s;
+}
+
+.blogin {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.blogin .bloginbutton {}
+
+.blogin .bloginbutton a {
+    color: #1BA3E0;
+    padding: 10px 15px;
+    border: 1px solid #1BA3E0;
+}
+
+.search {
+    position: absolute;
+    top: 13px;
+    right: 130px;
+}
+
+.search i {
+    font-size: 15px;
+}
+
+.category ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.blogwrap {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.blogwrap-sub{
+    margin-bottom: 50px;
+}
+
+.blog-sub {
+    height: 450px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.blog-sub .img {
+    width: 700px;
+    height: 450px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.blog-sub .img img {
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+}
+
+.blog-sub .writer {
+    margin: 40px 20px 40px 20px;
+    position: relative;
+}
+
+.blog-sub .writer p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #777;
+}
+
+.blog-sub .writer .share {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.blog-sub .writer img {
+    width: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.blog-sub .blog-subject {
+    display: inline-block;
+    vertical-align: top;
+    width: 692px;
+}
+
+.blog-sub p.title {
+    font-size: 27px;
+    margin: 25px;
+}
+
+.blog-sub p.content {
+    font-size: 16px;
+    margin: 25px 25px 110px 25px;
+}
+
+.blog-sub .comment-sub {
+    margin: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.blog-sub .comment-sub span {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.blog-sub .like {
+    margin: 20px;
+    display: inline-block;
+    float: right;
+}
+
+.blog-sub .like i {
+    color: #f95c55;
+    font-size:18px;
+}
+
+
+/*readblog*/
+
+.blogreadwrap {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.blogread-sub {
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.blogread-sub .img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+
+.blogread-sub .img img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.blogread-sub .writer {
+    margin: 40px 20px 20px 20px;
+    position: relative;
+}
+
+.blogread-sub .writer p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    color: #777;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.blogread-sub .writer .share {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.blogread-sub .writer img {
+    width: 30px;
+    border-radius: 17px;
+    display: inline-block;
+}
+
+.blogread-sub .blog-subject {
+    display: inline-block;
+    vertical-align: top;
+    width: 473px;
+}
+
+.blogread-sub p.title {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.blogread-sub p.title-by {
+    font-size: 16px;
+    margin: 20px 20px 60px 20px;
+}
+
+.blogread-sub p.content {
+    font-size: 16px;
+    margin: 20px 20px 20px 20px;
+}
+
+.blogread-sub .comment-sub {
+    margin: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.blogread-sub .comment-sub span {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.blogread-sub .like {
+    margin: 20px;
+    display: inline-block;
+    float: right;
+}
+
+.blogread-sub .like i{
+    color:#f95c55;
+    font-size:18px;
+}
+
+.bnew-list {
+    position: relative;
+}
+
+.bnew-list .newcontent {
+    margin-bottom: 20px;
+}
+
+.bnew-list .allview {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bnew-list .allview:hover {
+    color: #1BA3E0;
+}
+
+.commentview {
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.commentview p {
+    font-size: 17px;
+}
+
+.commentview p span {
+    font-size: 17px;
+    color: #1BA3E0;
+    font-weight: bold;
+}
